@@ -10,14 +10,14 @@
 -   #### Swagger(http://localhost:3000/api-docs) 기반 API 관련 확인이 가능함
 
 -   #### API 구현 항목
-    - ##### [POST] /api/schools { schoolRegion, schoolName }
-    - ##### [POST] /api/schools/:schoolId/news { content }
-    - ##### [DELETE] /api/schools/:schoolId/news/:newsId
-    - ##### [PUT] /api/schools/:schoolId/news/:newsId { content }
-    - ##### [POST] /api/students/:studentId/subscriptions/:schoolId
-    - ##### [DELETE] /api/students/:studentId/subscriptions/:schoolId
-    - ##### [GET] /api/students/:studentId/subscriptions
-    - ##### [GET] /api/students/:studentId/newsfeed
+    - ##### 학교 생성: [POST] /api/schools { schoolRegion, schoolName }
+    - ##### 학교 소식 생성: [POST] /api/schools/:schoolId/news { content }
+    - ##### 학교 소식 삭제: [DELETE] /api/schools/:schoolId/news/:newsId
+    - ##### 학교 소식 수정: [PUT] /api/schools/:schoolId/news/:newsId { content }
+    - ##### 학교 소식 구독 설정: [POST] /api/students/:studentId/subscriptions/:schoolId
+    - ##### 학교 소식 구독 해제: [DELETE] /api/students/:studentId/subscriptions/:schoolId
+    - ##### 구독 학교 리스트 확인: [GET] /api/students/:studentId/subscriptions
+    - ##### 구독한 학교 소식 확인: [GET] /api/students/:studentId/newsfeed
 
 -   #### DB 설계 항목
     - ##### Schools
