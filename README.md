@@ -16,7 +16,7 @@
     - ##### 학교 소식 수정: [PUT] /api/schools/:schoolId/news/:newsId { content }
     - ##### 학교 소식 구독 설정: [POST] /api/students/:studentId/subscriptions/:schoolId
     - ##### 학교 소식 구독 해제: [DELETE] /api/students/:studentId/subscriptions/:schoolId
-    - ##### 구독 학교 리스트 확인: [GET] /api/students/:studentId/subscriptions
+    - ##### 구독한 학교 리스트 확인: [GET] /api/students/:studentId/subscriptions
     - ##### 구독한 학교 소식 확인: [GET] /api/students/:studentId/newsfeed
 
 -   #### DB 설계 항목
